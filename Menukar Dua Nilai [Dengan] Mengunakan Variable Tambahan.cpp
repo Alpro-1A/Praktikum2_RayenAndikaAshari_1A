@@ -5,14 +5,14 @@ using namespace std;
 int main()
 {
     int a,b,c;
+    a = 10;
+    b = 8;
 
     cout << "== Menukar Nilai Kedua Variable ==" << endl;
     cout << "------------------------------" << endl;
-    cout << "       [Masukan Nilai]" << endl << endl;
-    cout << "Angka Pertama = ";
-    cin >> a;
-    cout << "Angka Kedua = ";
-    cin >> b;
+    cout << "       [Nilai Variable]" << endl << endl;
+    cout << "Angka Pertama = " << a << endl;
+    cout << "Angka Kedua = " << b << endl;
     cout << endl;
     cout << "------------------------------" << endl;
 
